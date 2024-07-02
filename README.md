@@ -3,6 +3,7 @@ About blas-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/blas-feedstock/blob/main/LICENSE.txt)
 
+
 About blas
 ----------
 
@@ -11,6 +12,7 @@ Home: https://github.com/conda-forge/blas-feedstock
 Package license: BSD-3-Clause
 
 Summary: Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.
+
 About libblas
 -------------
 
@@ -19,6 +21,7 @@ Home: https://github.com/conda-forge/blas-feedstock
 Package license: BSD-3-Clause
 
 Summary: Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.
+
 About libcblas
 --------------
 
@@ -27,6 +30,7 @@ Home: https://github.com/conda-forge/blas-feedstock
 Package license: BSD-3-Clause
 
 Summary: Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.
+
 About liblapack
 ---------------
 
@@ -35,6 +39,7 @@ Home: https://github.com/conda-forge/blas-feedstock
 Package license: BSD-3-Clause
 
 Summary: Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.
+
 About liblapacke
 ----------------
 
@@ -43,6 +48,7 @@ Home: https://github.com/conda-forge/blas-feedstock
 Package license: BSD-3-Clause
 
 Summary: Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.
+
 About blas-devel
 ----------------
 
@@ -51,6 +57,7 @@ Home: https://github.com/conda-forge/blas-feedstock
 Package license: BSD-3-Clause
 
 Summary: Metapackage to select the BLAS variant. Use conda's pinning mechanism in your environment to control which variant you want.
+
 About blas
 ----------
 
@@ -131,13 +138,6 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3701&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/blas-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_blas_implblisblas_impl_liblibblis.4.dylib" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_blas_implmklblas_impl_liblibmkl_rt.dylib</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3701&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/blas-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_blas_implmklblas_impl_liblibmkl_rt.dylib" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -268,7 +268,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
